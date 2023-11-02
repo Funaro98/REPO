@@ -1,13 +1,9 @@
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
-.carousel-caption {
-text-align: left;
-top: 80%;
-font-family: 'Saira Condensed', sans-serif;
-font-size: 32px;
-}
+
 /* Estilos CSS personalizados para el carrusel */
 .carousel-item img {
 	max-height: 800px; /* Ajusta la altura máxima de las imágenes del carrusel */
@@ -19,6 +15,13 @@ font-size: 32px;
 	margin: 0 auto; /* Centra el carrusel horizontalmente en la página */
   }
   
+  .rowpaddingTB {
+	display: grid;
+	background-color: beige;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(8,200px);
+	width: auto;
+  }
 
 .paddingTB {
 	padding-top: 50px;
@@ -26,19 +29,20 @@ font-size: 32px;
 }
 
 .footerBg {
-	background-image: url(C:\Users\FUNAG\REPO\assets\img\textura-revestido-concreto.jpg);
+	background-color: white;
 }
 
 .footerBg h3 {
 	color: rgb(0, 0, 0);
 	text-align: center;
-	font-size: 8px;
+	font-size: 20px;
 }
 
 .col-lg-12,
 .col-lg-6 {
 	padding-right: 0;
 	padding-left: 0;
+	width: auto;
 }
 
 .paddingT {
