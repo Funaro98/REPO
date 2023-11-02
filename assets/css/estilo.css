@@ -2,6 +2,22 @@
 	padding: 0;
 	margin: 0;
 }
+.carousel-caption {
+text-align: left;
+top: 80%;
+font-family: 'Saira Condensed', sans-serif;
+}
+/* Estilos CSS personalizados para el carrusel */
+.carousel-item img {
+	max-height: 800px; /* Ajusta la altura máxima de las imágenes del carrusel */
+	width: auto; /* Ajusta el ancho de las imágenes para mantener la proporción */
+  }
+  
+  .carousel-inner {
+	max-width: auto; /* Ajusta el ancho máximo del contenedor del carrusel */
+	margin: 0 auto; /* Centra el carrusel horizontalmente en la página */
+  }
+  
 
 .paddingTB {
 	padding-top: 50px;
@@ -66,3 +82,8 @@
 		flex-direction: column;
 	}
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+condensed:wght@300&family=Saira+Condensed&family=Young+Serif&display=swap')
+
+
+  
