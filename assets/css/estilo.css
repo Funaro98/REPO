@@ -6,6 +6,7 @@
 text-align: left;
 top: 80%;
 font-family: 'Saira Condensed', sans-serif;
+font-size: 32px;
 }
 /* Estilos CSS personalizados para el carrusel */
 .carousel-item img {
@@ -25,12 +26,13 @@ font-family: 'Saira Condensed', sans-serif;
 }
 
 .footerBg {
-	background-color: green;
+	background-image: url(C:\Users\FUNAG\REPO\assets\img\textura-revestido-concreto.jpg);
 }
 
 .footerBg h3 {
-	color: yellow;
+	color: rgb(0, 0, 0);
 	text-align: center;
+	font-size: 8px;
 }
 
 .col-lg-12,
